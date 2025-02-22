@@ -8,7 +8,7 @@
 }
 
 body {
-flex-flow: column;
+margin: 10px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -19,12 +19,11 @@ font-family: "Figtree", Courier, monospace;
 
 .container {
     display: flex;
-    flex-flow: column;
     justify-content: center;
     align-items: center;
     border: solid black 1px;
     box-shadow: 8px 8px black;
-    width: 384px;
+    max-width: 384px;
     height: 522px;
     border-radius: 20px;
     padding: 24px;
@@ -32,6 +31,7 @@ font-family: "Figtree", Courier, monospace;
 }
 
 .image img {
+    display: block;
     border-radius: 10px;
     width: 100%;
     margin-top: 0px;
@@ -63,6 +63,7 @@ font-family: "Figtree", Courier, monospace;
 }
 
 .author img {
+    display: block;
     width: 32px;
     height: 32px;
     border-radius: 50%;
