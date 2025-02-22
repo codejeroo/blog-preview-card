@@ -96,7 +96,6 @@ font-family: "Figtree", Courier, monospace;
    line-height: 150%;
    letter-spacing: 0%;
    color: #6B6B6B;
-   text-shadow: 2px 1px 3px;
 }
 
 .title:focus, .title:hover {
